@@ -16,6 +16,10 @@ const dataPesertaAcara = sequelize.define('peserta', {
         allowNull: true,
         defaultValue: 'Belum Hadir'
     },
+    waktu_hadir: {
+        allowNull: true,
+        type: DataTypes.DATE
+    },
     status_pembayaran: {
         type: DataTypes.ENUM('Sudah Bayar', 'Belum Bayar'),
         allowNull: true,

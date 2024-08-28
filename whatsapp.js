@@ -25,7 +25,8 @@ const sendMessage = (nama) => {
     return new Promise((resolve, reject) => {
         const chatIds = [
             '6289514563365@c.us',
-            '6281806346570@c.us'
+            // '6281806346570@c.us',
+            // '6289672912221@c.us'
         ];
 
         const now = new Date();
@@ -36,10 +37,9 @@ const sendMessage = (nama) => {
         const formattedTime = `${hours}:${minutes}:${seconds}`;
 
         // Format pesan
-        const message = `
-Reuni STAN 80
+        const message = `*Reuni STAN 80*
 Hotel Harris FX Soedirman - Jakarta
-Registrasi: Sabtu 31 Agustus 2024
+Sabtu, 31 Agustus 2024
 
 Nama             : ${nama}
 Waktu Hadir  : ${formattedTime}

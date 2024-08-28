@@ -24,6 +24,10 @@ module.exports = {
         allowNull: true,
         defaultValue: 'Belum Bayar'
       },
+      waktu_hadir: {
+        allowNull: true,
+        type: Sequelize.DATE
+      },
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE,
